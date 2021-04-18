@@ -45,6 +45,32 @@ h1{
     text-align: center;
 }
 
+div#description-container{
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+.description-left{
+    padding: 1%;
+    background-color: rgb(13,212,212);
+    float: left;
+}
+
+.description-right {
+    width: 30%;
+    background-color: crimson;
+
+}
+
+.description-right p{
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 2%;
+    height: 80%;
+}
+
 #laine-moura-photo{
     width: 200px;
 }
