@@ -34,6 +34,17 @@ div#botao-indice-direita{
     display: inline;
 }
 
+h1{
+    text-decoration: underline;
+    color: rgb(255,255,255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    padding: 30px;
+    background-color: rgb(13,212,212);
+    font-weight: 900;
+    text-align: center;
+}
+
 #laine-moura-photo{
     width: 200px;
 }
