@@ -99,3 +99,56 @@ div#skills-container, div#blog-container{
     text-align: center;
 }
 
+
+@media only screen and (max-device-width:375px){
+
+    div#indice-container-and-description-container, div#skills-container-and-blog-container{
+        height: 650px;
+        display: grid;
+    }
+
+    div.indice a {
+        padding: 10px;
+    }
+
+    h1{
+        width: 300px;
+        font-size: 20px;
+    
+    }
+
+    #laine-moura-photo, .description-left{
+        width: 150px;
+    }
+
+    div.description-left{
+        margin: auto;
+    }
+
+    .description-right{
+        width: 210px;
+    }
+
+    .description-right p{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    div#skills-container, div#blog-container{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #blog-container h4, h5{
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgb(252,252,252);
+
+    }
+
+    #blog-description h4 a{
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
