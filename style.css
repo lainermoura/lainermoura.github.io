@@ -14,15 +14,16 @@ body{
 }
 
 .indice a {
-    
     color: inherit;
     font-weight: 700;
-    text-align: center;
     font-size: 3.5vh;
     margin: auto;
-
+    text-transform: uppercase;
 }
 
+.indice a:link, .indice a:visited {
+    text-decoration: none;
+}
 
 .indice a:hover {
     background-color: rgb(238, 74, 63);
@@ -30,7 +31,7 @@ body{
 
 /*fim da barra de navegação*/
 
-
+/*nome - titulo h1*/
 h1{
     text-decoration: underline;
     color: rgb(255,255,255);
@@ -42,6 +43,8 @@ h1{
     text-align: center;
 }
 
+/* parte principal; foto lado esquerdo e desc do lado direito */
+
 #description-container{
     display: inline-flex;
     justify-content: center;
@@ -52,25 +55,33 @@ h1{
     padding: 1%;
     background-color: rgb(13,212,212);
     float: left;
+    border-radius: 50%;
+}
+
+#laine-moura-photo{
+    width: 200px;
+    border-radius: 50%;
 }
 
 .description-right {
     width: 30%;
     background-color: crimson;
-
+    border-radius: 5%;
+    margin-left: 2%;
+    float: right;
 }
 
 .description-right p{
     color: white;
-    float: right;
     font-size: 25px;
     padding: 2%;
     height: 80%;
 }
 
-#laine-moura-photo{
-    width: 200px;
-}
+/*fim da secao de descrição*/
+
+
+/*inicio de habilidades */
 
 h2{
     text-decoration: overline underline;
@@ -94,6 +105,8 @@ div#skills-container, div#blog-container{
     justify-content: center;
     text-align: center;
 }
+
+/*fim de habilidades*/
 
 
 @media only screen and (max-device-width:375px){
