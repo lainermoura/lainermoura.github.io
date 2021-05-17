@@ -2,11 +2,15 @@ body{
     background-color: rgb(148, 148, 144);
 }
 
+/* Inicio da barra de navegação */
+
 .indice {
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-flex;
     width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .indice a {
@@ -14,10 +18,17 @@ body{
     color: inherit;
     font-weight: 700;
     text-align: center;
-    padding-inline-start: 20vw;
     font-size: 3.5vh;
+    margin: auto;
 
 }
+
+
+.indice a:hover {
+    background-color: rgb(238, 74, 63);
+}
+
+/*fim da barra de navegação*/
 
 
 h1{
@@ -31,7 +42,7 @@ h1{
     text-align: center;
 }
 
-div#description-container{
+#description-container{
     display: inline-flex;
     justify-content: center;
 }
